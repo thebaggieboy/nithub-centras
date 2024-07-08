@@ -150,7 +150,7 @@ export default function Ordercard() {
                             </td>
                         </tr>
                         <tr class="border-b ">
-                            <th scope="row" class="px-4 py-3 font-medium whitespace-nowrap text-black">Apple iMac 27&#34;</th>
+                            <th scope="row" class="px-4 py-3 font-medium whitespace-nowrap text-black">Apple iMac 27</th>
                             <td class="px-4 py-3 text-black">PC</td>
                             <td class="px-4 py-3 text-black">Apple</td>
                             <td class="px-4 py-3 text-black">300</td>
@@ -177,7 +177,7 @@ export default function Ordercard() {
                             </td>
                         </tr>
                         <tr class="border-b ">
-                            <th scope="row" class="px-4 py-3 font-medium whitespace-nowrap text-black">Apple iMac 27&#34;</th>
+                            <th scope="row" class="px-4 py-3 font-medium whitespace-nowrap text-black">Apple iMac 27</th>
                             <td class="px-4 py-3 text-black">PC</td>
                             <td class="px-4 py-3 text-black">Apple</td>
                             <td class="px-4 py-3 text-black">300</td>
@@ -204,7 +204,7 @@ export default function Ordercard() {
                             </td>
                         </tr>
                         <tr class="border-b ">
-                            <th scope="row" class="px-4 py-3 font-medium whitespace-nowrap text-black">Apple iMac 27&#34;</th>
+                            <th scope="row" class="px-4 py-3 font-medium whitespace-nowrap text-black">Apple iMac 27</th>
                             <td class="px-4 py-3 text-black">PC</td>
                             <td class="px-4 py-3 text-black">Apple</td>
                             <td class="px-4 py-3 text-black">300</td>
@@ -231,7 +231,7 @@ export default function Ordercard() {
                             </td>
                         </tr>
                         <tr class="border-b ">
-                            <th scope="row" class="px-4 py-3 font-medium whitespace-nowrap text-black">Apple iMac 27&#34;</th>
+                            <th scope="row" class="px-4 py-3 font-medium whitespace-nowrap text-black">Apple iMac 27</th>
                             <td class="px-4 py-3 text-black">PC</td>
                             <td class="px-4 py-3 text-black">Apple</td>
                             <td class="px-4 py-3 text-black">300</td>
@@ -258,7 +258,7 @@ export default function Ordercard() {
                             </td>
                         </tr>
                         <tr class="border-b ">
-                            <th scope="row" class="px-4 py-3 font-medium whitespace-nowrap text-black">Apple iMac 27&#34;</th>
+                            <th scope="row" class="px-4 py-3 font-medium whitespace-nowrap text-black">Apple iMac 27</th>
                             <td class="px-4 py-3 text-black">PC</td>
                             <td class="px-4 py-3 text-black">Apple</td>
                             <td class="px-4 py-3 text-black">300</td>
