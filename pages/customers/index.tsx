@@ -16,6 +16,7 @@ import {
   BoxProps,
   FlexProps,
 } from '@chakra-ui/react'
+
 import {
   FiHome,
   FiTrendingUp,
