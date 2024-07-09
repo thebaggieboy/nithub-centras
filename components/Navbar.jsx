@@ -98,7 +98,7 @@ const DesktopNav = () => {
                                     <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd" />
                                 </svg>
                             </div>
-                            <input type="text" id="simple-search" className="bg-gray-50 border  flex items-center justify-center border-gray-300 text-black text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full pl-10 p-2 placeholder-gray-400 dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Search for something" required=""/>
+                            <input type="text" id="simple-search" className="bg-gray-50 border border-gray-300 text-black text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full pl-10 p-2 placeholder-gray-400 dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Search for something" required=""/>
                         </div>
                     </form>
                 </div>
@@ -106,7 +106,7 @@ const DesktopNav = () => {
   )
 }
 
-const DesktopSubNav = ({ label, href, subLabel }: NavItem) => {
+const DesktopSubNav = ({ label, href, subLabel }) => {
   return (
     <Box
       as="a"
@@ -151,7 +151,7 @@ const MobileNav = () => {
   )
 }
 
-const MobileNavItem = ({ label, children, href }: NavItem) => {
+const MobileNavItem = ({ label, children, href }) => {
   const { isOpen, onToggle } = useDisclosure()
 
   return (
@@ -199,18 +199,12 @@ const MobileNavItem = ({ label, children, href }: NavItem) => {
   )
 }
 
-interface NavItem {
-  label: string
-  subLabel?: string
-  children?: Array<NavItem>
-  href?: string
-}
 
-const NAV_ITEMS: Array<NavItem> = [
+const NAV_ITEMS= [
 
 
   {
-    label: 'Hire Designers',
-    href: '#',
+    label: 'Home',
+    href: '/',
   },
 ]
