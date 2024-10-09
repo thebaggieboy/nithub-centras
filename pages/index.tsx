@@ -7,6 +7,8 @@ import { HeroSection } from "@/components/landing-page/sections/Hero";
 import { FeatureSection } from "@/components/landing-page/sections/Features";
 import { KeyServiceSection } from "@/components/landing-page/sections/KeyServices";
 import { CentraSection } from "@/components/landing-page/sections/Centra";
+import MobileDownload from "@/components/landing-page/sections/MobileDownload";
+import Footer from "@/components/landing-page/sections/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 const Home: NextPageWithLayout = () => {
@@ -16,6 +18,8 @@ const Home: NextPageWithLayout = () => {
       <FeatureSection />
       <KeyServiceSection />
       <CentraSection />
+      <MobileDownload />
+      <Footer />
     </div>
   )
 }
