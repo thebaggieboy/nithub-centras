@@ -55,7 +55,7 @@ export const KeyServiceSection = () => {
   
     return (
       <div className="py-[120px] flex justify-center items-center">
-        <div className="w-[86%] grid gap-[60px]">
+        <div className="lg:w-[94%] xl:w-[86%] grid gap-[60px]">
           {/* heading */}
           <div className="grid gap-3 leading-extra-snug text-center max-w-[800px] mx-auto">
             <h2 className="font-medium text-2xl leading-extra-snug">

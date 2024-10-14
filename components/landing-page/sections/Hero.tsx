@@ -4,7 +4,7 @@ export const HeroSection = () => {
     return (
         <div className="bg-[url('/img/hero-bg.svg')] bg-no-repeat bg-cover h-screen flex justify-center items-center relative">
             <Navbar />
-            <div className="w-[86%] grid lg:grid-cols-2 mt-10">
+            <div className="lg:w-[94%] xl:w-[86%] grid lg:grid-cols-2 mt-10">
                 <div className="max-w-[600px] mx-auto">
                     <h2 className="font-bold text-4xl xl:text-5xl leading-extra-snug xl:leading-extra-snug">
                         Empower Your Business with
@@ -28,7 +28,7 @@ export const HeroSection = () => {
 
 const Navbar = () => {
     return (
-        <div className="bg-gradient-gray absolute top-5 rounded-full w-[86%] flex justify-between items-center py-2 px-10 max-lg:hidden">
+        <div className="bg-gradient-gray absolute top-5 rounded-full lg:w-[94%] xl:w-[86%] flex justify-between items-center py-2 px-10 max-lg:hidden">
             <Image src="/img/centra-logo.svg" alt="logo" width={100.29} height={40} />
             <div className="text-[#465054] flex gap-5">
                 <span className="cursor-pointer text-lg font-medium">About</span>
