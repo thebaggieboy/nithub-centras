@@ -3,7 +3,7 @@ import Image from "next/image"
 export const FeatureSection = () => {
     return (
       <div className="min-h-screen bg-[#020313] flex justify-center items-center">
-        <div className="w-[86%] flex gap-y-10 justify-start max-lg:flex-col lg:justify-between xl:grid xl:grid-cols-2 items-center">
+        <div className="lg:w-[94%] xl:w-[86%] flex gap-y-10 justify-start max-lg:flex-col lg:justify-between xl:grid xl:grid-cols-2 items-center">
   
           <Image src="/img/growth-illustration.svg" alt="illustration of a graph" width={360} height={304.96} className="" />
   

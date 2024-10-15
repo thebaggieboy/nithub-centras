@@ -34,6 +34,7 @@ body {
 .no-scrollbar {
   -ms-overflow-style: none;
   scrollbar-width: none;
+
   &::-webkit-scrollbar {
     display: none;
   }
@@ -50,41 +51,8 @@ body {
   0% {
     transform: translateX(0);
   }
+
   100% {
     transform: translateX(-50%);
-  }
-}
-
-.border-nest {
-  border-top: 1px;
-  border-right: 1px;
-  border-style: dashed;
-  border-color: black;
-  position: relative;
-  background: transparent;
-  padding: 70px;
-  width: max-content;
-  margin: 0 auto;
-}
-
-.border-nest::before {
-  content: 'Missed Potential';
-  position: absolute;
-  top: 0;
-  left: 0;
-  translate: -110% -50%;
-  width: max-content
-}
-.border-nest::after {
-  content: 'Accelerated Growth';
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  translate: 50% 110%;
-  width: max-content;
-}
-.border-nest {
-  span {
-    @apply absolute right-0 top-0 translate-x-1/2 -translate-y-1/2 w-12 h-12 bg-primary text-white grid place-content-center rounded-full text-xl font-medium;
   }
 }
