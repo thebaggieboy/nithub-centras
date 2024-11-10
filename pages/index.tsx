@@ -13,7 +13,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 const Home: NextPageWithLayout = () => {
   return (
-    <div className="font-satoshi max-w-screen-2xl mx-auto">
+    <div className="font-satoshi mx-auto">
       <HeroSection />
       <FeatureSection />
       <KeyServiceSection />
