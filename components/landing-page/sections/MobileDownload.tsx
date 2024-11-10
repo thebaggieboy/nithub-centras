@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const MobileDownload = () => {
   return (
-    <div className="bg-[#E3EDFD] pt-[120px] pb-[50px] lg:w-[94%] xl:w-[86%] mx-auto rounded-3xl">
+    <div className="bg-[#E3EDFD] pt-[120px] pb-[50px] lg:w-[94%] xl:w-[86%] mx-auto rounded-3xl max-w-screen-2xl">
         <div className="grid grid-cols-1 lg:flex">
             <div className="mx-8 lg:mx-12 xl:mx-20">
                 <h1 className="text-2xl lg:text-4xl xl:text-5xl font-medium ">Get Centra On-The-Go!</h1>

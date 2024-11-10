@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function Footer() {
   return (
-    <div className="lg:w-[94%] xl:w-[86%] mx-auto mt-28 text-[#465054] max-lg:px-10">
+    <div className="lg:w-[94%] xl:w-[86%] mx-auto mt-28 text-[#465054] max-lg:px-10 max-w-screen-2xl">
       <div className="grid grid-cols-1 items-center md:grid-cols-2 lg:grid-cols-4 lg:gap-8 mb-16">
 
         <div className="col-span-2 grid gap-6">
