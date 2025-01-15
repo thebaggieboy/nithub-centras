@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export const HeroSection = () => {
     return (
@@ -14,7 +15,7 @@ export const HeroSection = () => {
                             <span className="text-success">Inventory Solutions.</span>
                         </h2>
                         <p className="leading-extra-snug mt-2 mb-8">Centra optimizes your customer relationships and inventory management, helping you save time, reduce costs, and grow your business effortlessly.</p>
-                        <button className="bg-primary text-white px-5 py-3 rounded-lg">Get Started</button>
+                        <Link href="/auth/signup" className="bg-primary text-white px-5 py-3 rounded-lg">Get Started</Link>
                     </div>
 
                     <div className="max-lg:hidden relative">
@@ -30,7 +31,7 @@ export const HeroSection = () => {
 
 const Navbar = () => {
     return (
-        <div className="bg-gradient-gray absolute top-5 rounded-full lg:w-[94%] xl:w-[86%] flex justify-between items-center py-2 px-10 max-lg:hidden">
+        <div className="bg-gradient-gray absolute top-5 rounded-full lg:w-[94%] xl:w-[86%] flex justify-between items-center py-2 px-10 max-lg:hidden z-10">
             <Image src="/img/centra-logo.svg" alt="logo" width={100.29} height={40} />
             <div className="text-[#465054] flex gap-5">
                 <span className="cursor-pointer text-lg font-medium">About</span>
@@ -38,7 +39,7 @@ const Navbar = () => {
                 <span className="cursor-pointer text-lg font-medium">Why Centra</span>
                 <span className="cursor-pointer text-lg font-medium">Contact Us</span>
             </div>
-            <button className="bg-primary text-white py-2 px-4 rounded-full">Get Started</button>
+            <Link href="auth/signup" className="bg-primary text-white py-2 px-4 rounded-full">Get Started</Link>
         </div>
     )
 }
