@@ -55,7 +55,7 @@ const LinkItems: Array<LinkItemProps> = [
   { name: 'Notifications', icon: FiStar, href:'/notifications' },
   { name: 'Reports', icon: FiCompass, href:'/reports' },
   { name: 'Generate', icon: FiStar, href:'/generate' },
-  { name: 'Logout', icon: FiStar, href:'logout' },
+  { name: 'Logout', icon: FiStar, href:'/auth/signin' },
 
 ]
 
